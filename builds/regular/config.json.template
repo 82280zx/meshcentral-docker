@@ -13,7 +13,8 @@
     "TLSOffload": false,
     "SelfUpdate": false,
     "AllowFraming": false,
-    "WebRTC": false
+    "WebRTC": false,
+    "TrustedProxy": "my.reverse.proxy"
   },
   "domains": {
         "": {
