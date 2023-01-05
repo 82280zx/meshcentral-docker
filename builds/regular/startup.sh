@@ -8,6 +8,7 @@ export REVERSE_PROXY_TLS_PORT
 export IFRAME
 export ALLOW_NEW_ACCOUNTS
 export WEBRTC
+export TRUSTEDPROXY
 
 if [ -f "meshcentral-data/config.json" ]
     then
