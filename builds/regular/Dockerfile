@@ -20,7 +20,7 @@ COPY startup.sh startup.sh
 EXPOSE 80 443
 
 #volumes
-VOLUME /opt/meshcentral/meshcentral-data
-VOLUME /opt/meshcentral/meshcentral-files
+VOLUME /opt/meshcentral/
+
 
 CMD ["bash","/opt/meshcentral/startup.sh"]
